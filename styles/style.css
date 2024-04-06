@@ -115,7 +115,7 @@ body {
 }
 
 .hero-subtitle {
-   font-size: 22px; 
+   font-size: 22px;
    line-height: 28px;
    text-transform: uppercase;
    word-spacing: 19px;
@@ -124,7 +124,7 @@ body {
 .hero-button {
     font-family: 'Raleway', sans-serif;
    padding: 12px 32px 11px 31px;
-   font-size: 22px; 
+   font-size: 22px;
    line-height: 25.83px;
    font-weight: 500;
    text-transform: uppercase;
@@ -145,11 +145,10 @@ body {
     margin: 0 24px 146px;
 }
 
-.lots-title,
 .auction-title {
-    font-size: 40px; 
+    font-size: 40px;
     line-height: 46.96px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 .lots-card-link {
@@ -159,6 +158,9 @@ body {
 }
 
 .lots-title {
+    font-size: 40px; 
+    line-height: 46.96px;
+    text-transform: uppercase; 
     margin-left: 40px;
     margin-bottom: 27px;
 }
@@ -210,7 +212,7 @@ body {
 }
 
 .lots-card-title {
-    font-size: 22px; 
+    font-size: 22px;
     line-height: 26.4px;
     text-transform: uppercase;
     text-decoration: underline;
@@ -306,17 +308,13 @@ body {
 .footer-menu {
     margin-right: 185px;
     list-style: none;
-    font-size: 18px; 
+    font-size: 18px;
     line-height: 21px;
     text-align: center;
 }
 
 .footer-menu-link {
     text-underline-position: under;
-}
-
-.link-without-line {
-    text-decoration: none;
 }
 
 .footer-social-list {
@@ -328,6 +326,6 @@ body {
 
 .social-item {
     width: 48px;
-    height: 48px;  
+    height: 48px;
 }
 
