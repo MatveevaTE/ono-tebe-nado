@@ -14,8 +14,9 @@ body {
     margin-bottom: 96px;
 }
 
-.header-logo {
+.header-logo-link {
     width: 148px;
+    height: 105px;
 }
 
 .header-menu {
