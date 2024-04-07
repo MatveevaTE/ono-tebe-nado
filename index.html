@@ -11,24 +11,26 @@
   </head>
   <body>
     <header class="header">
-      <ul class="header-menu">
-        <li class="header-menu-item"><a class="header-menu-link link-without-line" href="#">главная</a></li>
-        <li class="header-menu-item"><a class="header-menu-link" href="#">посмотреть лоты</a></li>
-        <li class="header-menu-item"><a class="header-menu-link" href="#">об аукционе</a></li>
-      </ul>
-      <a class="header-logo-link" href="#"><img class="header-logo logo-black" src="images/logo-black.svg" alt="Логотип сайта Оно тебе надо." width="148" height="105"></a>
-      <ul class="contacts-list">
-        <li class="contacts-item"><a class="contacts-link" href="tel:+99995555555">+9 999 555 5555</a></li>
-        <li class="contacts-item"><a class="contacts-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
-        <li class="contacts-item"><address class="contacts-address">наб. Принсенграхт 263-<br>265, Амстердам</address></li>
-      </ul>
+      <nav class="header-nav">
+        <ul class="header-menu">
+          <li class="header-menu-item"><a class="header-menu-link link-without-line" href="#">главная</a></li>
+          <li class="header-menu-item"><a class="header-menu-link" href="#">посмотреть лоты</a></li>
+          <li class="header-menu-item"><a class="header-menu-link" href="#">об аукционе</a></li>
+        </ul>
+      </nav>
+      <a class="header-logo-link" href="#"><img class="header-logo" src="images/logo-black.svg" alt="Логотип сайта Оно тебе надо." width="148" height="105"></a>
+      <address class="header-address">
+        <a class="address-link" href="tel:+99995555555">+9 999 555 5555</a><br>
+        <a class="address-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="address-location">наб. Принсенграхт 263-<br>265, Амстердам</p>
+      </address>
     </header>
     <main>
       <section class="hero">
         <h1 class="hero-title">
-          <span>о<span class="letter-spacing-60">но</span></span>
-          <span>те<span class="letter-spacing-60">бе</span></span>
-          <span><span class="letter-spacing-60">н</span>адо</span>
+          <span>о<span class="letter-spacing-extended">но</span></span>
+          <span>те<span class="letter-spacing-extended">бе</span></span>
+          <span><span class="letter-spacing-extended">н</span>адо</span>
         </h1>
         <div class="hero-flex">
           <p class="hero-subtitle">Аукцион вещей, в которые никто не верил</p>
@@ -38,7 +40,7 @@
       <section class="lots">
         <h2 class="lots-title">Лоты</h2>
         <ul class="lots-card-list">
-          <li class="lots-card lots-card-one">
+          <li class="lots-card card-type-film">
             <a class="lots-card-link" href="#">
               <article class="lots-card-item">
                 <h3 class="lots-card-title">Фильм режиссёра, который бросил киношколу</h3>
@@ -50,7 +52,7 @@
               </article>
             </a>
           </li>
-          <li class="lots-card lots-card-two">
+          <li class="lots-card card-type-book">
             <a class="lots-card-link" href="#">
               <article class="lots-card-item">
                 <h3 class="lots-card-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
@@ -64,7 +66,7 @@
               </article>
             </a>
           </li>
-          <li class="lots-card lots-card-three">
+          <li class="lots-card card-type-picture">
             <a class="lots-card-link" href="#">
               <article class="lots-card-item">
                 <h3 class="lots-card-title">
@@ -80,7 +82,7 @@
             </a>
           </li>
         </ul>
-        <button class="lots-show-more">посмотреть больше</button>
+        <a class="lots-show-more">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about-column">
@@ -90,42 +92,45 @@
         </div>
         <div class="about-column">
           <h2 class="auction-title">Об аукционе</h2>
-          <p class="auction-subtitle auction-subtitle-1">
-            Здесь вы не встретите очередное <span class="letter-spacing-none">пафосное собрание невероятно
-            дорогого антиквариата.</span> <span class="letter-spacing-2">Наши</span> лоты вообще не должны <span class="letter-spacing--1">были попасть</span> ни на один аукцион.
-            Потому что кому нужен <span class="letter-spacing-3">дневник</span> девочки-подростка или картина, которую может нарисовать даже ребёнок?
+          <p class="auction-subtitle">
+            Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
+            Наши лоты вообще не должны были попасть ни на один аукцион.
+            Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок?
             Кому нужны все эти странные вещи, созданные любителями?
           </p>
-          
-          <p class="auction-subtitle">Слишком сложные или, наоборот, слишком простые. Опережающие своё время.
+          <p class="auction-subtitle">
+            Слишком сложные или, наоборот, слишком простые. Опережающие своё время.
             В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они
             казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность,
             сейчас без этих лотов невозможно представить современную культуру.
             Когда в эти вещи не верил никто, продолжали верить их создатели.
-            И сейчас эти лоты стали культовыми. </p>
+            И сейчас эти лоты стали культовыми.
+          </p>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <ul class="footer-contacts-list">
-        <li class="contacts-item"><a class="contacts-link" href="tel:+99995555555">+9 999 555 5555</a></li>
-        <li class="contacts-item"><a class="contacts-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
-        <li class="contacts-item"><address class="contacts-address">наб. Принсенграхт 263-<br>265, Амстердам</address></li>
-      </ul>
-      <ul class="footer-menu">
-        <li class="footer-menu-item"><a class="footer-menu-link link-without-line" href="#">главная</a></li>
-        <li class="footer-menu-item"><a class="footer-menu-link" href="#">посмотреть лоты</a></li>
-        <li class="footer-menu-item"><a class="footer-menu-link" href="#">об аукционе</a></li>
-      </ul>
+      <address class="footer-address">
+        <a class="address-link" href="tel:+99995555555">+9 999 555 5555</a><br>
+        <a class="address-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="address-location">наб. Принсенграхт 263-<br>265, Амстердам</p>
+      </address>
+      <nav class="footer-nav">
+        <ul class="footer-menu">
+          <li class="footer-menu-item"><a class="footer-menu-link link-without-line" href="#">главная</a></li>
+          <li class="footer-menu-item"><a class="footer-menu-link" href="#">посмотреть лоты</a></li>
+          <li class="footer-menu-item"><a class="footer-menu-link" href="#">об аукционе</a></li>
+        </ul>
+      </nav>
       <ul class="footer-social-list">
         <li class="social-item">
-          <img class="picture-YouTube" src="images/yt.svg" alt="YouTube." width="48" height="48">
+          <a class="social-link" href="#"><img class="social-icon" src="images/yt.svg" alt="YouTube." width="48" height="48"></a>
         </li>
         <li class="social-item">
-          <img class="picture-VK" src="images/vk.svg" alt="VK." width="48" height="48">
+          <a class="social-link" href="#"><img class="social-icon" src="images/vk.svg" alt="VK." width="48" height="48"></a>
         </li>
         <li class="social-item">
-          <img class="picture-Pinterest" src="images/pinterest.svg" alt="Pinterest." width="48" height="48">
+          <a class="social-link" href="#"><img class="social-icon" src="images/pinterest.svg" alt="Pinterest." width="48" height="48"></a>
         </li>
       </ul>
     </footer>
